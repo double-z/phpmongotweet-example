@@ -31,14 +31,3 @@ Then push the repo upstream
 That's it, you can now checkout your application at:
     http://phpmongotweet-$yourlogin.rhcloud.com
 
-
-Repo layout
------------
-
-php/ - Externally exposed php code goes here
-libs/ - Additional libraries
-misc/ - For not-externally exposed php code
-../data - For persistent data
-deplist.txt - list of pears to install
-.openshift/action_hooks/* - Scripts that execute with every push
-
